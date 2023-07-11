@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="inner-container">
+            <img src="image/clock.png">
+            <span id="time"></span>
+            <div class="setButton">
+                <select id="hourVal">
+                    <option>Hours</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <select id="minVal">
+                    <option>Minutes</option>
+                    <option>05</option>
+                    <option>10</option>
+                    <option>15</option>
+                    <option>20</option>
+                    <option>25</option>
+                    <option>30</option>
+                    <option>35</option>
+                    <option>39</option>
+                    <option>40</option>
+                    <option>45</option>
+                    <option>50</option>
+                    <option>55</option>
+                    <option>60</option>
+                </select>
+                <select id="sessionVal">
+                    <option>AM/PM</option>
+                    <option>AM</option>
+                    <option>PM</option>
+                </select>
+            </div>
+            <audio id="audio" src="music/sound1.mp3"></audio>
+            <button id="btn">Set Alarm</button>
+        </div>
+    </div>
+    <script src="mind.js"></script>
+</body>
+</html>

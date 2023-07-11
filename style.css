@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: #4a99f8;
+}
+#main-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#inner-container{
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+#inner-container img{
+    width: 100px;
+}
+#inner-container span{
+    font-size: 40px;
+    /* width:140px; */
+}
+.setButton select{
+    padding: 12px;
+    border-radius: 0.2rem;
+    margin: 10px;
+}
+#inner-container button{
+    padding: 12px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #4a99f8;
+    color: white;
+    width: 80%;
+    margin-bottom: 20px;
+}
